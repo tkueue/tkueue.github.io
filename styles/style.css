@@ -1,0 +1,45 @@
+body, html {
+  margin: 0;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: wheat;
+}
+
+.wrapper {
+  height: 100%;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  background-color: rgba(25, 25, 25, 0.4);
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  box-shadow: 0px 0px 10px 2px black;
+  height: 100%;
+}
+
+footer {
+  height: 50px;
+  background-color: rgba(25, 25, 25, 0.4);
+}
+
+.name {
+  text-align: center;
+}
+.name p {
+  margin-top: 0px;
+}
+.name p, h1 {
+  text-shadow: 0px 0px 5px;
+}
