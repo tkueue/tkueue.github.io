@@ -1,45 +1,48 @@
 body, html {
   margin: 0;
   height: 100%;
-  overflow-x: hidden;
   font-family: 'Noto Sans', sans-serif;
 }
 
-body {
-  background-image: url("../img/bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: wheat;
-}
-
 .wrapper {
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
   height: 100%;
+  color: wheat;
 }
 
 .content {
   height: 100%;
-  display: flex;
   background-color: rgba(25, 25, 25, 0.4);
+}
+
+.title-info {
+  height: 95%;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.about {
-  box-shadow: 0px 0px 10px 2px black;
-  height: 100%;
-}
 
 footer {
-  height: 50px;
-  background-color: rgba(25, 25, 25, 0.4);
+  height: 5%;
 }
+footer a, p {
+  color: wheat;
+  text-decoration: none;
+  margin-left: 25px;
+  text-shadow: 0px 0px 5px;
+  transition: font-size 0.5s;
+}
+footer a:hover, footer p:hover {
+  font-size: 1.4em;
+}
+
 
 .name {
   text-align: center;
 }
-.name p {
-  margin-top: 0px;
-}
 .name p, h1 {
+  margin: 0;
   text-shadow: 0px 0px 5px;
 }
