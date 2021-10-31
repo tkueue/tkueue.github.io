@@ -2,7 +2,7 @@ html, body {
   margin: 0;
   height: 100%;
 }
-body {
+html {
   background-image: url("../img/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -58,7 +58,7 @@ footer a:hover, footer p:hover {
 }
 
 @media screen and (max-width: 650px) {
-  body {
+  html {
     overflow: visible;
   }
   .footer-div {
